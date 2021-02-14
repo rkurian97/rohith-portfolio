@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+header{
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    
+}
+header ul{
+    list-style: none;
+}
+
+header nav{
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: black;
+
+}
+
+section{
+    background-color: white;
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+
+section h1{
+    text-align: center;
+}
+.section-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+
+}
+
+#contact a{
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+section img{
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#projects img{
+    width: 50%;
+    
+}
